@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Gaya 2010</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="header-title">Website Gaya 2010</h1>
+        </header>
+        <main class="main-content">
+            <div class="button-container">
+                <button class="toggle-button" onclick="showHome()">Home</button>
+                <button class="toggle-button" onclick="showDiscussion()">Diskusi</button>
+            </div>
+            <section class="section" id="home">
+                <h2 class="section-title">Home</h2>
+                <p class="section-text">Welcome to our website! This is the home section where we introduce our site and give an overview of what we offer.</p>
+            </section>
+            <section class="section" id="about">
+                <h2 class="section-title">About Us</h2>
+                <p class="section-text">We are a company that specializes in providing excellent services to our clients.</p>
+            </section>
+            <section class="section" id="services">
+                <h2 class="section-title">Our Services</h2>
+                <ul class="services-list">
+                    <li class="service-item">Service 1</li>
+                    <li class="service-item">Service 2</li>
+                    <li class="service-item">Service 3</li>
+                </ul>
+            </section>
+            <section class="section" id="discussion">
+                <h2 class="section-title">Discussion</h2>
+                <div class="discussion-content">
+                    <p class="section-text">Join our discussion forum where you can interact with other users and share your thoughts.</p>
+                    <form class="discussion-form">
+                        <label for="username" class="form-label">Username:</label>
+                        <input type="text" id="username" class="form-input">
+                        
+                        <label for="comment" class="form-label">Comment:</label>
+                        <textarea id="comment" class="form-textarea"></textarea>
+                        
+                        <button type="submit" class="form-button">Submit</button>
+                    </form>
+                </div>
+            </section>
+            <section class="section" id="contact">
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-text">If you have any questions, feel free to <a class="contact-link" href="mailto:info@example.com">email us</a>.</p>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer-text">&copy; 2010 Website Gaya 2010. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
+<style>
+
+</style>
+<script>
+    function showHome() {
+    document.getElementById('home').style.display = 'block';
+    document.getElementById('discussion').style.display = 'none';
+}
+
+function showDiscussion() {
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('discussion').style.display = 'block';
+}
+
+</script>

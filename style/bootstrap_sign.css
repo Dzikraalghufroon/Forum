@@ -1,0 +1,43 @@
+.container {
+    margin-top: 20px;
+    margin-left: 45%;
+}
+
+.banner {
+    background-color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Gaya untuk input teks */
+.input-text {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Gaya untuk input password */
+.input-password {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Gaya untuk tombol submit */
+.submit-button {
+    padding: 10px 20px;
+    color: black;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Gaya untuk tombol submit saat di-hover */
+.submit-button:hover {
+    background-color: white;
+}

@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.wiki-content {
+    margin-bottom: 40px;
+}
+
+.judul {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.metadata {
+    font-size: 14px;
+    color: #777;
+}
+
+.content {
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.answers {
+    margin-top: 40px;
+}
+
+.answer-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.username {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.form-container {
+    margin-top: 40px;
+}
+
+.input-message {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+.submit-button2 {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 50px;
+}
+

@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d4d4d4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-title {
+    margin: 0;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+    display: none;
+}
+
+.section-title {
+    color: #333;
+}
+
+.section-text {
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.services-list {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.service-item {
+    margin-bottom: 10px;
+}
+
+.contact-link {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.footer-text {
+    margin: 0;
+}
+
+.button-container {
+    text-align:left;
+    margin-left: 13%;
+}
+
+.toggle-button{
+    background-color: #dddddd;
+    color: #000000;
+    border: none solid #000000;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-right: -5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.toggle-button:hover{
+    background-color: #555;
+}
+.toggle-button.active {
+    border:20px;
+    background-color: #0066cc;
+}
+
+#home {
+    display: block;
+}
